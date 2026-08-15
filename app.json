@@ -16,12 +16,17 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.dilpesh786.luxservices"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
+    "extra": {
+      "eas": {
+        "projectId": "552f0665-e30d-4f11-9ea9-97bc22a22809"
+      }
+    },
     "runtimeVersion": {
       "policy": "appVersion"
     },
