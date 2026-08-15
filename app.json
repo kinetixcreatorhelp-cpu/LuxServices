@@ -1,39 +1,23 @@
 {
   "expo": {
-    "name": "LuxServices",
-    "slug": "luxservices",
+    "name": "Lux Services",
+    "slug": "LuxServices",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false,
-      "package": "com.dilpesh786.luxservices"
+      "package": "com.luxservices.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "6360772d-a549-4c04-9d67-bab9eea76031"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ]
+      "favicon": ""
+    }
   }
 }
